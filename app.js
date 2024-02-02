@@ -8,8 +8,8 @@ import path from 'path';
 import cookieParser from 'cookie-parser';
 //var logger = require('morgan');
 import logger from 'morgan';
-import './routes/index.js';
-import './routes/users.js';
+import indexRouter from './routes/index.js';
+import usersRouter from './routes/users.js';
 
 var app = express();
 

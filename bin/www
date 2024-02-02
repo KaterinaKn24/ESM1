@@ -4,9 +4,9 @@
  * Module dependencies.
  */
 
-import '../app.js';
+import app from '../app.js';
 import _debug from 'debug';
-const debug = _debug('esm-hw:server');
+const debug = _debug('02-02-2024:server');
 import http from 'http';
 
 /**
